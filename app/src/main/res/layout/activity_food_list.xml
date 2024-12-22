@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FoodListActivity"
+    tools:ignore="ExtraText">
+
+    <SearchView
+        android:id="@+id/searchView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/newFoodEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter new food item" />
+
+    <Button
+        android:id="@+id/addFoodButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Food Item" />
+
+
+</LinearLayout>

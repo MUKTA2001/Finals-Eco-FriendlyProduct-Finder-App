@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Eco Friendly Product App Finder</string>
+    <string-array name="food_categories">
+        <item>All</item>
+        <item>Fruits</item>
+        <item>Vegetables</item>
+        <item>Grains</item>
+        <item>Seafood</item>
+        <item>Herbs</item>
+    </string-array>
+
+</resources>
